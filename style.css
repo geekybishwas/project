@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    background: #fff;
+    color: #333;
+    line-height: 1.6;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #333;
+    height: 70px;
+    width: 100%;
+    color: #fff;
+    opacity: 0.8;
+    position: fixed;
+    top: 0px;
+    padding: 0 30px;
+}
+
+.navbar a {
+    color: #fff;
+    padding: 10px 20px;
+    margin: 0 5px;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar a:hover {
+    /* padding-bottom: 20px; */
+    border-bottom: 2px solid #28a745;
+}
+
+.navbar .logo {
+    font-weight: bolder;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+h1,
+h2 {
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+p {
+    margin: 10px 0;
+}
+
+img {
+    width: 100%;
+}
+
+/* HEADER */
+
+.hero {
+    background: url("./hero_section.png") no-repeat center center/cover;
+    height: 100vh;
+    position: relative;
+    color: #fff;
+}
+
+.hero .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    padding: 0 20px;
+}
+
+.hero .content h1 {
+    font-family: "Brush Script MT", cursive;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.hero .content p {
+    font-family: "Brush Script MT", cursive;
+    font-size: 30px;
+    max-width: 650px;
+    /* MARGIN :top left & rght bottom */
+    margin: 20px 0 30px;
+}
+
+.hero .content a {
+    font-size: 18px;
+    font-weight: bolder;
+}
